@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Core/Inc/rtwtypes.h
+
+../Core/Inc/stepMotor.h
+rtwtypes.h
+../Core/Inc/rtwtypes.h
+stepMotor_types.h
+../Core/Inc/stepMotor_types.h
+
+../Core/Inc/stepMotor_private.h
+rtwtypes.h
+../Core/Inc/rtwtypes.h
+stepMotor_types.h
+../Core/Inc/stepMotor_types.h
+stepMotor.h
+../Core/Inc/stepMotor.h
+
+../Core/Inc/stepMotor_types.h
+rtwtypes.h
+../Core/Inc/rtwtypes.h
+
+D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/stepMotor.c
+stepMotor.h
+D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/stepMotor.h
+stepMotor_private.h
+D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/stepMotor_private.h
+rtwtypes.h
+D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/rtwtypes.h
+stepMotor_types.h
+D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/stepMotor_types.h
+

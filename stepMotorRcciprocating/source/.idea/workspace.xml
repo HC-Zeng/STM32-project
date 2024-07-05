@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="source" targetName="source.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc7217b7-cc37-4be2-8ca0-eb671e90e042" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../simulink model/DD.sldd" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/DD.sldd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/slprj/ert/_sharedutils/shared_file.dmr" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/slprj/ert/_sharedutils/shared_file.dmr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/slprj/ert/stepMotor/tmwinternal/BlockTraceInfo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/slprj/ert/stepMotor/tmwinternal/BlockTraceInfo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/slprj/ert/stepMotor/tmwinternal/CompileInfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/slprj/ert/stepMotor/tmwinternal/CompileInfo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/slprj/ert/stepMotor/tmwinternal/binfo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/slprj/ert/stepMotor/tmwinternal/binfo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/slprj/ert/stepMotor/tmwinternal/minfo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/slprj/ert/stepMotor/tmwinternal/minfo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/slprj/ert/stepMotor/tmwinternal/scv" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/slprj/ert/stepMotor/tmwinternal/scv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/slprj/sim/varcache/stepMotor/checksumOfCache.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/slprj/sim/varcache/stepMotor/checksumOfCache.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/slprj/sim/varcache/stepMotor/tmwinternal/simulink_cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/slprj/sim/varcache/stepMotor/tmwinternal/simulink_cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/slprj/sim/varcache/stepMotor/varInfo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/slprj/sim/varcache/stepMotor/varInfo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/slprj/sl_proj.tmw" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/slprj/sl_proj.tmw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor.slx" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor.slx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor.slxc" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor.slxc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/buildInfo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/buildInfo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/codeInfo.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/codeInfo.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/codedescriptor.dmr" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/codedescriptor.dmr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/multiword_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/mw_gnu_arm_tools_path.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/mw_gnu_arm_tools_path.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/rtmodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/rtmodel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/rtw_proj.tmw" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/rtw_proj.tmw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/rtwtypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/rtwtypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/rtwtypeschksum.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/rtwtypeschksum.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/stepMotor.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/stepMotor.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/stepMotor.c" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/stepMotor.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/stepMotor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/stepMotor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/stepMotor.mk" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/stepMotor.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/stepMotor.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/stepMotor.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/stepMotor_comp.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/stepMotor_comp.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/stepMotor_data.c" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/stepMotor_data.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/stepMotor_private.h" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/stepMotor_private.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/stepMotor_ref.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/stepMotor_ref.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/stepMotor_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/stepMotor_types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/tmwinternal/simulink_cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/tmwinternal/simulink_cache.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulink model/stepMotor_ert_rtw/tmwinternal/tr" beforeDir="false" afterPath="$PROJECT_DIR$/../simulinkModel/stepMotor_ert_rtw/tmwinternal/tr" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2ibNw2mR8XtEMn5hKGKVFiFyOVO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD source">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="source.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="source" TARGET_NAME="source.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="source" RUN_TARGET_NAME="source.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.source.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD source" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc7217b7-cc37-4be2-8ca0-eb671e90e042" name="Default Changelist" comment="" />
+      <created>1719755552140</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719755552140</updated>
+      <workItem from="1719755609779" duration="9607000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
