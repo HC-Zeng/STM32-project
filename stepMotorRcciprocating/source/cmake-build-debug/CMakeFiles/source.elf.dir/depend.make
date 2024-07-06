@@ -37,11 +37,8 @@ CMakeFiles/source.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
 
 CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Core/Inc/gpio.h
 CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Core/Inc/main.h
-CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Core/Inc/rtwtypes.h
-CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Core/Inc/stepMotor.h
-CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Core/Inc/stepMotor_private.h
-CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Core/Inc/stepMotor_types.h
 CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Core/Inc/stm32f1xx_hal_conf.h
+CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Core/Inc/tim.h
 CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
 CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
 CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
@@ -70,17 +67,6 @@ CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32F1xx_HAL_Driver/I
 CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 CMakeFiles/source.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-
-CMakeFiles/source.elf.dir/Core/Src/stepMotor.c.obj: ../Core/Inc/rtwtypes.h
-CMakeFiles/source.elf.dir/Core/Src/stepMotor.c.obj: ../Core/Inc/stepMotor.h
-CMakeFiles/source.elf.dir/Core/Src/stepMotor.c.obj: ../Core/Inc/stepMotor_private.h
-CMakeFiles/source.elf.dir/Core/Src/stepMotor.c.obj: ../Core/Inc/stepMotor_types.h
-CMakeFiles/source.elf.dir/Core/Src/stepMotor.c.obj: ../Core/Src/stepMotor.c
-
-CMakeFiles/source.elf.dir/Core/Src/stepMotor_data.c.obj: ../Core/Inc/rtwtypes.h
-CMakeFiles/source.elf.dir/Core/Src/stepMotor_data.c.obj: ../Core/Inc/stepMotor.h
-CMakeFiles/source.elf.dir/Core/Src/stepMotor_data.c.obj: ../Core/Inc/stepMotor_types.h
-CMakeFiles/source.elf.dir/Core/Src/stepMotor_data.c.obj: ../Core/Src/stepMotor_data.c
 
 CMakeFiles/source.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Inc/main.h
 CMakeFiles/source.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Inc/stm32f1xx_hal_conf.h
@@ -145,10 +131,6 @@ CMakeFiles/source.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Drivers/STM32F1xx_HAL_
 CMakeFiles/source.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 CMakeFiles/source.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Core/Src/stm32f1xx_it.c
 
-CMakeFiles/source.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-
-CMakeFiles/source.elf.dir/Core/Src/sysmem.c.obj: ../Core/Src/sysmem.c
-
 CMakeFiles/source.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Core/Inc/stm32f1xx_hal_conf.h
 CMakeFiles/source.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
 CMakeFiles/source.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
@@ -178,6 +160,38 @@ CMakeFiles/source.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_
 CMakeFiles/source.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 CMakeFiles/source.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 CMakeFiles/source.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Core/Src/system_stm32f1xx.c
+
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Core/Inc/main.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Core/Inc/stm32f1xx_hal_conf.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Core/Inc/tim.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Include/cmsis_armcc.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Include/cmsis_armclang.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Include/cmsis_compiler.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Include/cmsis_gcc.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Include/cmsis_iccarm.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Include/cmsis_version.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Include/core_cm3.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/CMSIS/Include/mpu_armv7.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+CMakeFiles/source.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
 
 CMakeFiles/source.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Core/Inc/stm32f1xx_hal_conf.h
 CMakeFiles/source.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h

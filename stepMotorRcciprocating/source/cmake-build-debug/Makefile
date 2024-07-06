@@ -195,60 +195,6 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
-Core/Src/stepMotor.obj: Core/Src/stepMotor.c.obj
-
-.PHONY : Core/Src/stepMotor.obj
-
-# target to build an object file
-Core/Src/stepMotor.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/stepMotor.c.obj
-.PHONY : Core/Src/stepMotor.c.obj
-
-Core/Src/stepMotor.i: Core/Src/stepMotor.c.i
-
-.PHONY : Core/Src/stepMotor.i
-
-# target to preprocess a source file
-Core/Src/stepMotor.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/stepMotor.c.i
-.PHONY : Core/Src/stepMotor.c.i
-
-Core/Src/stepMotor.s: Core/Src/stepMotor.c.s
-
-.PHONY : Core/Src/stepMotor.s
-
-# target to generate assembly for a file
-Core/Src/stepMotor.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/stepMotor.c.s
-.PHONY : Core/Src/stepMotor.c.s
-
-Core/Src/stepMotor_data.obj: Core/Src/stepMotor_data.c.obj
-
-.PHONY : Core/Src/stepMotor_data.obj
-
-# target to build an object file
-Core/Src/stepMotor_data.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/stepMotor_data.c.obj
-.PHONY : Core/Src/stepMotor_data.c.obj
-
-Core/Src/stepMotor_data.i: Core/Src/stepMotor_data.c.i
-
-.PHONY : Core/Src/stepMotor_data.i
-
-# target to preprocess a source file
-Core/Src/stepMotor_data.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/stepMotor_data.c.i
-.PHONY : Core/Src/stepMotor_data.c.i
-
-Core/Src/stepMotor_data.s: Core/Src/stepMotor_data.c.s
-
-.PHONY : Core/Src/stepMotor_data.s
-
-# target to generate assembly for a file
-Core/Src/stepMotor_data.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/stepMotor_data.c.s
-.PHONY : Core/Src/stepMotor_data.c.s
-
 Core/Src/stm32f1xx_hal_msp.obj: Core/Src/stm32f1xx_hal_msp.c.obj
 
 .PHONY : Core/Src/stm32f1xx_hal_msp.obj
@@ -303,60 +249,6 @@ Core/Src/stm32f1xx_it.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/stm32f1xx_it.c.s
 .PHONY : Core/Src/stm32f1xx_it.c.s
 
-Core/Src/syscalls.obj: Core/Src/syscalls.c.obj
-
-.PHONY : Core/Src/syscalls.obj
-
-# target to build an object file
-Core/Src/syscalls.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/syscalls.c.obj
-.PHONY : Core/Src/syscalls.c.obj
-
-Core/Src/syscalls.i: Core/Src/syscalls.c.i
-
-.PHONY : Core/Src/syscalls.i
-
-# target to preprocess a source file
-Core/Src/syscalls.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/syscalls.c.i
-.PHONY : Core/Src/syscalls.c.i
-
-Core/Src/syscalls.s: Core/Src/syscalls.c.s
-
-.PHONY : Core/Src/syscalls.s
-
-# target to generate assembly for a file
-Core/Src/syscalls.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/syscalls.c.s
-.PHONY : Core/Src/syscalls.c.s
-
-Core/Src/sysmem.obj: Core/Src/sysmem.c.obj
-
-.PHONY : Core/Src/sysmem.obj
-
-# target to build an object file
-Core/Src/sysmem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/sysmem.c.obj
-.PHONY : Core/Src/sysmem.c.obj
-
-Core/Src/sysmem.i: Core/Src/sysmem.c.i
-
-.PHONY : Core/Src/sysmem.i
-
-# target to preprocess a source file
-Core/Src/sysmem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/sysmem.c.i
-.PHONY : Core/Src/sysmem.c.i
-
-Core/Src/sysmem.s: Core/Src/sysmem.c.s
-
-.PHONY : Core/Src/sysmem.s
-
-# target to generate assembly for a file
-Core/Src/sysmem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/sysmem.c.s
-.PHONY : Core/Src/sysmem.c.s
-
 Core/Src/system_stm32f1xx.obj: Core/Src/system_stm32f1xx.c.obj
 
 .PHONY : Core/Src/system_stm32f1xx.obj
@@ -383,6 +275,33 @@ Core/Src/system_stm32f1xx.s: Core/Src/system_stm32f1xx.c.s
 Core/Src/system_stm32f1xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/system_stm32f1xx.c.s
 .PHONY : Core/Src/system_stm32f1xx.c.s
+
+Core/Src/tim.obj: Core/Src/tim.c.obj
+
+.PHONY : Core/Src/tim.obj
+
+# target to build an object file
+Core/Src/tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.c.obj
+
+Core/Src/tim.i: Core/Src/tim.c.i
+
+.PHONY : Core/Src/tim.i
+
+# target to preprocess a source file
+Core/Src/tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/tim.c.i
+.PHONY : Core/Src/tim.c.i
+
+Core/Src/tim.s: Core/Src/tim.c.s
+
+.PHONY : Core/Src/tim.s
+
+# target to generate assembly for a file
+Core/Src/tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\source.elf.dir\build.make CMakeFiles/source.elf.dir/Core/Src/tim.c.s
+.PHONY : Core/Src/tim.c.s
 
 Core/Startup/startup_stm32f103c8tx.obj: Core/Startup/startup_stm32f103c8tx.s.obj
 
@@ -759,27 +678,18 @@ help:
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
-	@echo ... Core/Src/stepMotor.obj
-	@echo ... Core/Src/stepMotor.i
-	@echo ... Core/Src/stepMotor.s
-	@echo ... Core/Src/stepMotor_data.obj
-	@echo ... Core/Src/stepMotor_data.i
-	@echo ... Core/Src/stepMotor_data.s
 	@echo ... Core/Src/stm32f1xx_hal_msp.obj
 	@echo ... Core/Src/stm32f1xx_hal_msp.i
 	@echo ... Core/Src/stm32f1xx_hal_msp.s
 	@echo ... Core/Src/stm32f1xx_it.obj
 	@echo ... Core/Src/stm32f1xx_it.i
 	@echo ... Core/Src/stm32f1xx_it.s
-	@echo ... Core/Src/syscalls.obj
-	@echo ... Core/Src/syscalls.i
-	@echo ... Core/Src/syscalls.s
-	@echo ... Core/Src/sysmem.obj
-	@echo ... Core/Src/sysmem.i
-	@echo ... Core/Src/sysmem.s
 	@echo ... Core/Src/system_stm32f1xx.obj
 	@echo ... Core/Src/system_stm32f1xx.i
 	@echo ... Core/Src/system_stm32f1xx.s
+	@echo ... Core/Src/tim.obj
+	@echo ... Core/Src/tim.i
+	@echo ... Core/Src/tim.s
 	@echo ... Core/Startup/startup_stm32f103c8tx.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i

@@ -102,25 +102,13 @@
 		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Inc/main.h">
 			<Option target="source.elf"/>
 		</Unit>
-		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Inc/rtmodel.h">
-			<Option target="source.elf"/>
-		</Unit>
-		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Inc/rtwtypes.h">
-			<Option target="source.elf"/>
-		</Unit>
-		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Inc/stepMotor.h">
-			<Option target="source.elf"/>
-		</Unit>
-		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Inc/stepMotor_private.h">
-			<Option target="source.elf"/>
-		</Unit>
-		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Inc/stepMotor_types.h">
-			<Option target="source.elf"/>
-		</Unit>
 		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Inc/stm32f1xx_hal_conf.h">
 			<Option target="source.elf"/>
 		</Unit>
 		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Inc/stm32f1xx_it.h">
+			<Option target="source.elf"/>
+		</Unit>
+		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Inc/tim.h">
 			<Option target="source.elf"/>
 		</Unit>
 		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/gpio.c">
@@ -129,25 +117,16 @@
 		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/main.c">
 			<Option target="source.elf"/>
 		</Unit>
-		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/stepMotor.c">
-			<Option target="source.elf"/>
-		</Unit>
-		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/stepMotor_data.c">
-			<Option target="source.elf"/>
-		</Unit>
 		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/stm32f1xx_hal_msp.c">
 			<Option target="source.elf"/>
 		</Unit>
 		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/stm32f1xx_it.c">
 			<Option target="source.elf"/>
 		</Unit>
-		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/syscalls.c">
-			<Option target="source.elf"/>
-		</Unit>
-		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/sysmem.c">
-			<Option target="source.elf"/>
-		</Unit>
 		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/system_stm32f1xx.c">
+			<Option target="source.elf"/>
+		</Unit>
+		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Src/tim.c">
 			<Option target="source.elf"/>
 		</Unit>
 		<Unit filename="D:/HC/Desktop/STM32-project/stepMotorRcciprocating/source/Core/Startup/startup_stm32f103c8tx.s">
