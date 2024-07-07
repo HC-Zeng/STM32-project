@@ -30,6 +30,7 @@
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 const uint32_t addr_base = 0x0800fc00;
+const uint32_t T_map[100] = {660, 654, 648, 642, 636, 630, 624, 618, 612, 606, 600, 594, 588, 582, 576, 570, 564, 558, 552, 546, 540, 534, 528, 522, 516, 510, 504, 498, 492, 486, 480, 474, 468, 462, 456, 450, 444, 438, 432, 426, 420, 414, 408, 402, 396, 390, 384, 378, 372, 366, 360, 354, 348, 342, 336, 330, 324, 318, 312, 306, 300, 294, 288, 282, 276, 270, 264, 258, 252, 246, 240, 234, 228, 222, 216, 210, 204, 198, 192, 186, 180, 174, 168, 162, 156, 150, 144, 138, 132, 126, 120, 114, 108, 102, 96, 90, 84, 78, 72, 66};
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -100,6 +101,11 @@ void addPos(int32_t val)
 {
     pos1 = pos2;
     pos2 = val;
+}
+
+uint32_t getT(uint32_t num)
+{
+    return T_map[num];
 }
 
 void sendPulse(uint32_t nums)
@@ -297,9 +303,31 @@ void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim)
     }
 
     pulse ++;
+
+    uint32_t centerNum = gNum/2;
+
+    if(centerNum >= 100)
+    {
+        centerNum = 100;
+    }
+
+    if(pulse < centerNum)
+    {
+        htim1.Instance->PSC = T_map[pulse];
+    }
+    else
+    {
+        uint32_t tem_pulse = gNum - pulse;
+        if(tem_pulse < centerNum)
+        {
+            htim1.Instance->PSC = T_map[tem_pulse];
+        }
+    }
+
     if(pulse >= gNum)
     {
         HAL_TIM_PWM_Stop_IT(&htim1, TIM_CHANNEL_1);
+        htim1.Instance->PSC = T_map[0];
         pulse = 0;
         moving = 0;
         userControl = 0;
@@ -314,6 +342,7 @@ void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim)
             direction = 1;
             HAL_GPIO_WritePin(Dir_GPIO_Port, Dir_Pin, direction);
             HAL_GPIO_WritePin(En_GPIO_Port, En_Pin, 1);
+            htim1.Instance->PSC = T_map[0];
             sendPulse(gNum);
         }
     }
