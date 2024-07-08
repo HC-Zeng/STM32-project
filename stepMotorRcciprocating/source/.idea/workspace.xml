@@ -18,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/source.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/source.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/source.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.source.elf" />
       <item itemvalue="OpenOCD Download &amp; Run.OCD source" />
@@ -71,6 +77,7 @@
       <workItem from="1720273003744" duration="6820000" />
       <workItem from="1720358141492" duration="83000" />
       <workItem from="1720364737122" duration="1049000" />
+      <workItem from="1720446087241" duration="1577000" />
     </task>
     <servers />
   </component>
